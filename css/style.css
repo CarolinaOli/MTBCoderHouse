@@ -101,22 +101,24 @@ margin: 20px;
 }
 
 .rec {
-    background-color: grey;
+    background-image: linear-gradient(rgb(203, 134, 211), rgb(100, 88, 197));
   grid-area: rec;
 }
 
 .insc {
-    background-color: grey;
+    background-image: linear-gradient(rgb(203, 134, 211), rgb(100, 88, 197));
   grid-area: insc;
 }
 .regl {
-    background-color: grey;
+    background-image: linear-gradient(to left, rgb(203, 134, 211), rgb(100, 88, 197));
   grid-area: regl;
+  transform: rotate(360deg);
 }
 .section {
     height: 200px;
     margin: 20px;
     grid-area: section ;
+    transform:  skewX(-10deg);
     background-color: grey;
   }
 @media (max-width: 480px) {
